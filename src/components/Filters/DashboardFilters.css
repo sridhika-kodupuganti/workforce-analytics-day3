@@ -1,0 +1,30 @@
+.dashboard-filters {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+  }
+  
+  .dashboard-filters select {
+    min-width: 180px;
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .dashboard-filters select:focus {
+    border-color: #2563eb;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-filters {
+      flex-direction: column;
+    }
+  
+    .dashboard-filters select {
+      width: 100%;
+    }
+  }

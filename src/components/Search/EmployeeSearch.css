@@ -1,0 +1,34 @@
+.employee-search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .search-icon {
+    color: #2563eb;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .employee-search input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+  }
+  
+  .employee-search input::placeholder {
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .employee-search {
+      max-width: 100%;
+    }
+  }
